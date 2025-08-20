@@ -1,0 +1,44 @@
+body {
+  background: #2b3a67;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+#game-area {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 400px;
+}
+.window {
+  width: 120px;
+  height: 120px;
+  background: #eaeaea;
+  border: 5px solid #555;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.window.ralph {
+  background: url('https://i.imgur.com/Tn0Z5d6.png') center center/cover no-repeat;
+  border: 5px solid #ff5733;
+}
+#score-area {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+#start-btn {
+  padding: 12px 30px;
+  font-size: 1em;
+  background: #ff5733;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#start-btn:hover {
+  background: #c70039;
+}
